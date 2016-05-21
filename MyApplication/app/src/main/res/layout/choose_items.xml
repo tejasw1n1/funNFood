@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rk.myapplication.chooseItems">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="L’Amuse Bouche"
+            android:id="@+id/amuseItem"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galettes"
+            android:id="@+id/galettes"
+            android:layout_below="@+id/amuseItem"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waffles"
+            android:id="@+id/waffles"
+            android:checked="false"
+            android:layout_below="@+id/amuseItem"
+            android:layout_alignLeft="@+id/blackRadish"
+            android:layout_alignStart="@+id/blackRadish" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raclette"
+            android:id="@+id/raclette"
+            android:layout_below="@+id/galettes"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoked Salmon"
+            android:id="@+id/smokedSalmon"
+            android:layout_below="@+id/raclette"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camembert Bonbons "
+            android:id="@+id/camembert"
+            android:layout_alignBottom="@+id/smokedSalmon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Radish"
+            android:id="@+id/blackRadish"
+            android:checked="false"
+            android:layout_alignTop="@+id/raclette"
+            android:layout_alignLeft="@+id/camembert"
+            android:layout_alignStart="@+id/camembert" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fruit Drinks"
+        android:id="@+id/fruitDrinks"
+        android:layout_below="@+id/smokedSalmon"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strawberry Lemonade"
+        android:id="@+id/lemonade"
+        android:layout_below="@+id/fruitDrinks"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watermelontinis"
+        android:id="@+id/watermelontinis"
+        android:layout_below="@+id/fruitDrinks"
+        android:layout_alignLeft="@+id/camembert"
+        android:layout_alignStart="@+id/camembert"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green Tea Soda"
+        android:id="@+id/greenTea"
+        android:layout_below="@+id/lemonade"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple Cider Punch"
+        android:id="@+id/apple"
+        android:layout_alignBottom="@+id/greenTea"
+        android:layout_alignLeft="@+id/watermelontinis"
+        android:layout_alignStart="@+id/watermelontinis"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange and Mint Sangria"
+        android:id="@+id/orange"
+        android:layout_below="@+id/greenTea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cranberry-Ginger Fizz"
+        android:id="@+id/fizz"
+        android:layout_alignBottom="@+id/orange"
+        android:layout_alignLeft="@+id/apple"
+        android:layout_alignStart="@+id/apple"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main Course"
+        android:id="@+id/mainCourse"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/orange" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken biryani"
+        android:id="@+id/chickenBiryani"
+        android:layout_below="@+id/mainCourse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spice Mushroom Rice"
+        android:id="@+id/mushroomRice"
+        android:layout_alignBottom="@+id/chickenBiryani"
+        android:checked="false"
+        android:layout_alignLeft="@+id/fizz"
+        android:layout_alignStart="@+id/fizz" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetable Biryani"
+        android:id="@+id/vegBiryani"
+        android:layout_below="@+id/mushroomRice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rajma Chaval"
+        android:id="@+id/rajmaChaval"
+        android:layout_below="@+id/chickenBiryani"
+        android:layout_toRightOf="@+id/orange"
+        android:layout_toEndOf="@+id/orange"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajwaini Roti"
+        android:id="@+id/ajwainiRoti"
+        android:layout_below="@+id/vegBiryani"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Misi roti"
+        android:id="@+id/misiRoti"
+        android:layout_below="@+id/rajmaChaval"
+        android:layout_alignLeft="@+id/rajmaChaval"
+        android:layout_alignStart="@+id/rajmaChaval"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spicy  Potato Curry"
+        android:id="@+id/potatoCurry"
+        android:layout_below="@+id/ajwainiRoti"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palak Paneer"
+        android:id="@+id/palakPaneer"
+        android:layout_below="@+id/misiRoti"
+        android:layout_alignLeft="@+id/misiRoti"
+        android:layout_alignStart="@+id/misiRoti"
+        android:checked="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dessert"
+        android:id="@+id/dessert"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/palakPaneer" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate Truffles"
+        android:id="@+id/chocolate"
+        android:layout_below="@+id/dessert"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strawberry Flan"
+        android:id="@+id/strawberry"
+        android:layout_alignBottom="@+id/chocolate"
+        android:checked="false"
+        android:layout_alignLeft="@+id/fizz"
+        android:layout_alignStart="@+id/fizz" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheeseburger Cups"
+        android:id="@+id/cheeseburger"
+        android:layout_below="@+id/chocolate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ham-Swiss Triangles"
+        android:id="@+id/triangles"
+        android:checked="false"
+        android:layout_below="@+id/strawberry"
+        android:layout_toRightOf="@+id/orange"
+        android:layout_toEndOf="@+id/orange" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple Puff Pockets"
+        android:id="@+id/pockets"
+        android:layout_below="@+id/cheeseburger"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacon and Cheese Cups"
+        android:id="@+id/cups"
+        android:checked="false"
+        android:layout_below="@+id/triangles"
+        android:layout_alignLeft="@+id/strawberry"
+        android:layout_alignEnd="@+id/strawberry" />
+
+
+</RelativeLayout>

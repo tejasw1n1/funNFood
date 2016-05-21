@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Fun N Food</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign In </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="empty" />
+    <string name="search_restaurants_and_fun_places">Search Restaurants and Fun places</string>
+
+    <!-- Stings related to Search food and fun dropdown box -->
+    <string-array name="search_areas">
+
+        <item> Kudlu Gate(HSR Layout) </item>
+        <item> Kanakpura Main Road </item>
+        <item> Kathriguppe </item>
+        <item> K R Puram </item>
+        <item> Kamakya </item>
+        <item> Koramangala </item>
+        <item> Kumaraswamy Layout </item>
+        <item> Kalyan Nagar </item>
+        <item> Kengeri </item>
+        <item> Kaggadasapura </item>
+        <item> Kammanahalli </item>
+        <item> K G Rd Balepete </item>
+        <item> Kodihalli Village </item>
+        <item> Kumara Krupa High Grounds </item>
+        <item> Kempe Gowda Road </item>
+        <item> K H Road </item>
+        <item> Kadubeesanahalli </item>
+        <item> Kalasipalyam </item>
+        <item> Kasturba Road </item>
+        <item> Kensington Road </item>
+        <item> KHB Colony </item>
+        <item> KIADB Industrial Area 562107 </item>
+        <item> Kammanahalli </item>
+        <item> Kolar Main Road </item>
+        <item> Konena Agrahara </item>
+        <item> Kundalahalli Gate Road </item>
+    </string-array>
+
+    <string-array name="restaurantNames">
+        <item>"Melange -Hotel Ekaa"</item>
+        <item>Dominos</item>
+        <item>Sree Krishna Sagar Greens</item>
+        <item>New Royal Pride Hotel </item>
+        <item>Cafe Coffee Day </item>
+        <item>Punjabi Tadka Restaurant</item>
+        <item>Subway </item>
+        <item>"Dande's Hyderabad Biryani"</item>
+        <item>Baskin Robins</item>
+        <item>Yum Kitchen </item>
+        <!--
+        <item>Yum Kitchen (HSR Layout)</item>
+        <item>Eat Street (Bomnahalli)</item>
+        <item>Cake Cafe (HSR Layout)</item>
+        <item>Just Like Mums (Electronics City)</item>
+        <item>Raising Dough (Singasandra)</item>
+        <item>Helloo Delhi (HSR Layout)  </item>
+        <item>Agarwal Bhavan</item>
+        <item>Biryani Ghar</item>
+        <item>palace bakery and sweets</item> -->
+    </string-array>
+
+    <string-array name="restaurantDescription">
+        <item>"Distance: 2 min (120 m)
+            via Service Rd
+            Address: No. 52, Hosur Main Road, Behind Kudlu Gate Bus Stand, Kudlu Gate, Bengaluru, Karnataka 560068
+            Phone:080 4934 3499"</item>
+        <item>"Distance: 11 min (950 m)
+            via Service Rd
+            Address: 169, Service Rd, Garvebhavi Palya, Bengaluru, Karnataka 560068
+            Phone:080 6888 6888"</item>
+        <item>"Distance: 2 min (120 m)
+            via Service Rd
+            Address: Hotel Ekaa, 52, Hosur Main Road, Kudlu Gate, Near Narasimha Theatre, Hosur Main Road, Electronic City, Bangalore, Karnataka 560068
+            Phone:080 41709662"</item>
+        <item>"Distance: 25 min (6.2 km)
+            via Hosur Rd
+            12 min without traffic
+            Address: Hotel Royal Pride Bangalore, The Royal Pride, Opposite to Punjabi by Nature, Hosur Main Road, Near Christ College, Koramangala
+            Bengaluru, Karnataka 560029
+            Phone:080 4148 8899"</item>
+        <item>"Distance: 9 min (600 m)
+            via Service Rd
+            Address: Cafe Coffee Day - Mohin Towers, Mohin Towers, Garvebhavipalya, Near Nandi Toyota, Hosur Road
+            Bengaluru, 560068
+            Phone: 080 4097 9210 "</item>
+        <item>"Distance: 16 min (4.1 km)
+            via Hosapalaya Main Rd
+            13 min without traffic
+            Address: Punjabi Tadka
+            Sector 1, HSR Layout, Bengaluru, Karnataka 560102
+            Phone: 080 6000 0600"</item>
+        <item>"Distance: 10 min (3.6 km)
+            via NH7
+            8 min without traffic
+            Address: Subway
+            36, 14th Main Road, HSR Layout, Bengaluru, Karnataka 560102
+            Phone080 2572 9999"</item>
+        <item>"Distance: 8 min (2.7 km)
+            via NH7
+            6 min without traffic
+            Address: Dande's Hyderabad Biryani, 268/3, 1st Floor, BVNR Complex, Hosur Main Road, Bommanahalli
+            Bengaluru, Karnataka 560068
+            Phone:080 4166 7966 "</item>
+        <item>"Distance: 22 min (5.6 km)
+            Address: Baskin Robbins, nor 386,7th main,
+            7th Cross Road, BTM 2nd Stage, Bengaluru, Karnataka 560076
+            Phone: 080 42242331"</item>
+        <item>"Distance:12 min (3.4 km)
+            via Kudlu Main Rd
+            10 min without traffic
+            Address:No. 9, Near Hanuman Wood Industry,
+            3rd Cross, Mangampalya Road, HSR, Bangalore
+            Phone: +91 7676466969"</item>
+    </string-array>
+    <!--
+    <string-array name="all_images">
+        <item>@drawable/cake</item>
+        <item>@drawable/chinies</item>
+        <item>@drawable/cook</item>
+        <item>@drawable/cupcake</item>
+        <item>@drawable/download</item>
+        <item>@drawable/downloads</item>
+        <item>@drawable/fries</item>
+        <item>@drawable/ge</item>
+        <item>@drawable/i</item>
+        <item>@drawable/im</item>
+        <item>@drawable/ima</item>
+        <item>@drawable/images</item>
+        <item>@drawable/menu</item>
+        <item>@drawable/pub</item>
+        <item>@drawable/xy</item>
+    </string-array>
+-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
